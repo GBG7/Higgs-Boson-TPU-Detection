@@ -1,17 +1,37 @@
-Detecting the Higgs Boson File using Kaggle's TPUs.
+# Detecting the Higgs Boson File using Kaggle's TPUs
+
 by GBG7
 
-write up ...
+---
 
-This was made using Kaggles's TPUs. Upload the `.ipynb` file onto Kaggle, visit Settings>Accelerator> and select TPUVM3-8.
+## Overview
 
-This works for the latest version of Tensorflow V2.18.0 (Various other guides only work for TF 2.10.0).
-I updated the code myself.
+This repository contains a Jupyter Notebook for detecting the Higgs Boson particle using Kaggle's TPUs.
 
-Training Files can be found (here)[https://www.kaggle.com/c/higgs-boson/data]. However, 
-```
+---
+
+## Usage
+
+1. **Upload the `.ipynb` file onto [Kaggle](https://www.kaggle.com/).**
+2. Go to `Settings > Accelerator` and select **TPUVM3-8**.
+
+---
+
+## Requirements
+
+- **TensorFlow v2.18.0**
+
+> ⚠️ Note: Various other guides only work for TF 2.10.0.  
+> This code has been updated to support the latest version (2.18.0).
+
+---
+
+## Accessing Training Data
+
+Training files can be found [here](https://www.kaggle.com/c/higgs-boson/data).
+
+However, you do not need to download the data manually. The following code will handle accessing the data for you:
+
+```python
 data_dir = KaggleDatasets().get_gcs_path('higgs-boson-dataset')
 print(tf.io.gfile.listdir(data_dir))
-``` will handle accessing the data for you, so there is no need to download the data.
-
-Note the link is outdated.  
