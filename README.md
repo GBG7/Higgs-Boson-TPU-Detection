@@ -28,7 +28,7 @@ This repository contains a Jupyter Notebook for detecting the Higgs Boson partic
 
 ## Accessing Training Data
 
-Link to the notebook can be found [here](https://www.kaggle.com/code/lilsolar/solar-higgs-boson-tpus)
+Link to the notebook can be found [here](https://www.kaggle.com/code/lilsolar/solar-higgs-boson-tpus)  
 Training files can be found [here](https://www.kaggle.com/c/higgs-boson/data).
 
 However, you do not need to download the data manually. The following code will handle accessing the data for you:
