@@ -14,6 +14,7 @@ This repository contains a Jupyter Notebook for detecting the Higgs Boson partic
 
 1. **Upload the `.ipynb` file onto [Kaggle](https://www.kaggle.com/).**
 2. Go to `Settings > Accelerator` and select **TPUVM3-8**.
+3. Select  `Run All`. Click `Ok` if prompted for a notebook restart
 
 ---
 
