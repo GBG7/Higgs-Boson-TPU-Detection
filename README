@@ -3,3 +3,10 @@ by GBG7
 
 write up ...
 
+This was made using Kaggles's TPUs. Upload the `.ipynb` file onto Kaggle, visit Settings>Accelerator> and select TPUVM3-8.
+
+This works for the latest version of Tensorflow V2.18.0 (Various other guides only work for TF 2.10.0).
+I updated the code myself.
+
+
+
