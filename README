@@ -8,5 +8,10 @@ This was made using Kaggles's TPUs. Upload the `.ipynb` file onto Kaggle, visit 
 This works for the latest version of Tensorflow V2.18.0 (Various other guides only work for TF 2.10.0).
 I updated the code myself.
 
+Training Files can be found (here)[https://www.kaggle.com/c/higgs-boson/data]. However, 
+```
+data_dir = KaggleDatasets().get_gcs_path('higgs-boson-dataset')
+print(tf.io.gfile.listdir(data_dir))
+``` will handle accessing the data for you, so there is no need to download the data.
 
-
+Note the link is outdated.  
